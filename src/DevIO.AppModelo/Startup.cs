@@ -35,6 +35,8 @@ namespace DevIO.AppModelo
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
