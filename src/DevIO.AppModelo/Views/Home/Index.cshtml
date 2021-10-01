@@ -1,1 +1,3 @@
-﻿Ola mundo
+﻿@using DevIO.AppModelo.Data
+@inject IPedidoRepository PedidoRepository
+@PedidoRepository.ObterPedido().Id; 
